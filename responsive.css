@@ -42,5 +42,22 @@
     .banner-button{
         margin-bottom: 15px;
     }
-    
+    /* banner responsive end here */
+
+    .grid-container{
+        grid-template-columns: 1fr;
+        
+      
+      }
+      .grid-container p{
+        margin-bottom: 10px;
+    }
+
+   .discout-container{
+       flex-direction: column;
+   }
+   .discount-img,.discount-text{
+    width: 100%;
+    padding: 10px 20px;
+   }
 }
